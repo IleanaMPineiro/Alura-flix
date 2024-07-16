@@ -1,0 +1,108 @@
+.modal {
+  position: absolute;
+  height: auto;
+  margin: auto;
+  background: #03122f;
+  border: 5px solid #6bd1ff;
+  padding: 84px 200px;
+  border-radius: 15px;
+  max-height: 50%;
+  overflow-y: auto;
+  width: max-content;
+  max-width: 90%;
+  width: 500px;
+  z-index: 2;
+}
+
+.ReactModal__Overlay {
+  background-color: #03122fc2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.modal .exit-button {
+  position: absolute;
+  top: 35px;
+  right: 35px;
+}
+
+.modal .form-item {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.modal .form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 43px;
+}
+
+.modal .form-item label {
+  font-family: Source Sans Pro;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.modal .form-title {
+  font-family: Roboto;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 70.31px;
+  text-align: left;
+  color: #2271d1;
+  text-transform: uppercase;
+}
+
+.modal .form-item input,
+textarea,
+select {
+  border: 3px solid #2271d1;
+  border-radius: 10px;
+  font-family: Source Sans Pro;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #a5a5a5;
+  background-color: #03122f;
+  padding: 16px 11px;
+}
+
+.modal .actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal button {
+  font-family: Source Sans Pro;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #03122f;
+  width: 180px;
+  height: 54px;
+  border: 2px solid #f5f5f5;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.modal .accent {
+  color: #2271d1;
+  box-shadow: 0px 0px 12px 4px #2271d1 inset;
+  border: 2px solid #2271d1;
+  background-color: #000000e5;
+}

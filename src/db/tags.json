@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "label": "Front end",
+    "color": "#6BD1FF"
+  },
+  {
+    "id": 2,
+    "label": "Back End",
+    "color": "#00C86F"
+  },
+  {
+    "id": 3,
+    "label": "innovación y gestión",
+    "color": "#FFBA05"
+  }
+]
